@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="">65e3d63647d1311074aead8b136d4382</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-19 11:24:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>75e3d63638d13110e7e1ce62a64a61a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sys_ux_page_property_75e3d63638d13110e7e1ce62a64a61a6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-19 11:24:31</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1071908_safety.65e3d63647d1311074aead8b136d4382.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">57c5cbe447d9311074aead8b136d4333</application>
+        <file_path/>
+        <instance_id>35266ebbdbb1215891232f17d49619b5</instance_id>
+        <instance_name>dev170016</instance_name>
+        <name>sys_ux_page_property_75e3d63638d13110e7e1ce62a64a61a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>global_search_configurations</name><page display_value="">65e3d63647d1311074aead8b136d4382</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-09-19 11:24:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>75e3d63638d13110e7e1ce62a64a61a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package><sys_policy/><sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope><sys_update_name>sys_ux_page_property_75e3d63638d13110e7e1ce62a64a61a6</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-19 11:24:31</sys_updated_on><type>json</type><unique_name>x_1071908_safety.65e3d63647d1311074aead8b136d4382.root.global_search_configurations</unique_name><value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1545112810</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 12:00:16</sys_created_on>
+        <sys_id>0e1c1abe47d1311074aead8b136d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aad5004460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 12:00:16</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>ca1c1abe6bd1311072b928b98d4b61e8</update_guid>
+        <update_guid_history>ca1c1abe6bd1311072b928b98d4b61e8:1545112810</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 12:00:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>153f5c206eea4a0ebcfd232f58aa0d64</sys_id>
+        <sys_metadata>75e3d63638d13110e7e1ce62a64a61a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_scope_delete display_value="">2fc33b39334844c4a7ba35cd820cef90</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_75e3d63638d13110e7e1ce62a64a61a6</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_75e3d63638d13110e7e1ce62a64a61a6">0e1c1abe47d1311074aead8b136d43e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 12:00:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1071908_safety_sw_search_profile_default_spell_check_dictionary">689853e44735311074aead8b136d43bb</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="sw Search Profile">0788dfa43a353110addfed1d981d1ae4</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 13:09:35</sys_created_on>
+        <sys_id>689853e44735311074aead8b136d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1071908_safety_sw_search_profile_default_spell_check_dictionary.sw Search Profile</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_689853e44735311074aead8b136d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 13:09:35</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

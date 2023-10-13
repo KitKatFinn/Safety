@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Safety Issues Portal Config">36bcdafe47d1311074aead8b136d4398</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Additional Details">8fbcdafe7ad13110134612be5e7b87d6</macroponent>
+        <macroponent_config>{&#13;
+    "sysId" : {&#13;
+    "type" : "CONTEXT_BINDING",&#13;
+    "binding" : {&#13;
+      "address" : [ "sysId" ],&#13;
+      "category" : "props"&#13;
+    }&#13;
+  },&#13;
+  "label" : {&#13;
+    "type" : "TRANSLATION_LITERAL",&#13;
+    "value" : {&#13;
+      "code" : null,&#13;
+      "message" : "",&#13;
+      "comment" : ""&#13;
+    }&#13;
+  },&#13;
+  "bare" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : true&#13;
+  },&#13;
+  "scrollable" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "none"&#13;
+  },&#13;
+  "headerLevel" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "1"&#13;
+  },&#13;
+  "headingOnlyVisibleToScreenReaders" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "interceptNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "propagateNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  }&#13;
+}</macroponent_config>
+        <name>Additional Details Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">47bcdafec8d131108a30af91237080e2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Additional Details">07bcdafe53d131100679e653f7ed1cda</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-19 12:03:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7bcdafe0cd1311063a23b76997a47b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Details Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sys_ux_screen_c7bcdafe0cd1311063a23b76997a47b9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-19 12:03:07</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7bcdafe0cd1311063a23b76997a47b9"/>
+</record_update>

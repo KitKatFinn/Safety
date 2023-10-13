@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "f552e6a932780394b6f06c14071aa115",
+            "type": "MACROPONENT"
+        },
+        "elementId": "dashboard",
+        "elementLabel": "Dashboard",
+        "eventMappings": [
+            {
+                "eventMappingId": "cliuffjstiiaaddpsddbhhzdffcddivr",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1071908_safety.NAV_ITEM_SELECTED_RELAY_cf88dfa4bc35311034458af06e10e2d5",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "fields": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "navigationOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "container": {
+                                            "sysId": {
+                                                "type": "JSON_LITERAL",
+                                                "value": "0788dfa429353110e044e1c1422bf5dd"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "home"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "c388dfa4ea3531109676caeb72b157d5"
+                        },
+                        "operation": null,
+                        "targetId": "cliuffjstiiaaddptddbhhzeggtzccyggjj",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "dashboardSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "defaultDashboard": {
+                "type": "JSON_LITERAL",
+                "value": "0788dfa429353110e044e1c1422bf5dd"
+            },
+            "defaultDrilldowns": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "editMode": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "element": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "experienceId": {
+                "binding": {
+                    "address": [
+                        "appId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "filterId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "hideCreateNewButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDashboardPicker": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideEditButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideShareButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showPrintPreview": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "tabSysId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "useAsEmbedded": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "userInfo": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "9664d48053461010cbc2ddeeff7b128e",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "look_up_record_1",
+        "elementLabel": "Look Up Record 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "recordId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "location"
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "sys_user"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events>c388dfa4ea3531109676caeb72b157d5</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "dashboard",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "grid-gap": "var(--now-static-space--lg)",
+            "grid-template-areas": "\"main\"",
+            "grid-template-columns": "1fr",
+            "grid-template-rows": "minmax(400px,auto)",
+            "height": "100%"
+        },
+        "templateId": "28bde4cd53431010e6bcddeeff7b12cc",
+        "type": "grid"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": null,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cliuffjeeojjaaddodddbhhzhwlvmfflr",
+        "inherited": false,
+        "label": "Edit",
+        "mandatory": false,
+        "name": "edit",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 13:09:31</sys_created_on>
+        <sys_id>cf88dfa4bc35311034458af06e10e2d5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sys_ux_macroponent_cf88dfa4bc35311034458af06e10e2d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-11 11:53:39</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf88dfa4bc35311034458af06e10e2d5"/>
+</record_update>

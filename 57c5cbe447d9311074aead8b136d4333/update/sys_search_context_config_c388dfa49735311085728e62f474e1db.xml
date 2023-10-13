@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <enable_exact_match>true</enable_exact_match>
+        <evam_definition/>
+        <genius_results_limit/>
+        <hit_highlighting>false</hit_highlighting>
+        <name>Safety Workspace - Workspace Search</name>
+        <search_engine>zing</search_engine>
+        <search_profile/>
+        <search_results_limit>10</search_results_limit>
+        <show_tab_counts>false</show_tab_counts>
+        <spell_check>false</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 13:09:30</sys_created_on>
+        <sys_id>c388dfa49735311085728e62f474e1db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Workspace - Workspace Search</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sys_search_context_config_c388dfa49735311085728e62f474e1db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 13:09:30</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=c388dfa49735311085728e62f474e1db"/>
+</record_update>

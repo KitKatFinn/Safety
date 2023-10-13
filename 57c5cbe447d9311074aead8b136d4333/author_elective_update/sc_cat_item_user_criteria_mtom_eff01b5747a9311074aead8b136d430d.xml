@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Report a Safety Issue">72908a7e4751311074aead8b136d430d</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 15:24:04</sys_created_on>
+        <sys_id>eff01b5747a9311074aead8b136d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report a Safety Issue.Any User</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_eff01b5747a9311074aead8b136d430d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 15:24:04</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">57c5cbe447d9311074aead8b136d4333</application>
+        <file_path/>
+        <instance_id>35266ebbdbb1215891232f17d49619b5</instance_id>
+        <instance_name>dev170016</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_eff01b5747a9311074aead8b136d430d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report a Safety Issue">72908a7e4751311074aead8b136d430d</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-03 15:24:04</sys_created_on><sys_id>eff01b5747a9311074aead8b136d430d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Report a Safety Issue.Any User</sys_name><sys_package/><sys_policy/><sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_eff01b5747a9311074aead8b136d430d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-03 15:24:04</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1516595573</payload_hash>
+        <record_name>Report a Safety Issue.Any User</record_name>
+        <reverted_from/>
+        <source>82015b5747a9311074aead8b136d43cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 15:24:15</sys_created_on>
+        <sys_id>c2019b5747a9311074aead8b136d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18af623cacf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 15:24:15</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>c6019b572ca93110de22f70af6a38314</update_guid>
+        <update_guid_history>c6019b572ca93110de22f70af6a38314:1516595573,46019b5748a931109ff8d0ea0b0f9411:-1643735862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Report a Safety Issue.Any User">b8215f5747a9311074aead8b136d435d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 15:24:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>cd3a6b94192645f0a344bc10066a8ce4</sys_id>
+        <sys_metadata>eff01b5747a9311074aead8b136d430d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report a Safety Issue.Any User</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_scope_delete display_value="">2fc33b39334844c4a7ba35cd820cef90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_eff01b5747a9311074aead8b136d430d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_eff01b5747a9311074aead8b136d430d">c2019b5747a9311074aead8b136d4315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 15:24:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

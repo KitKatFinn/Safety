@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>69e3d63647d1311074aead8b136d4382</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>safety-issues-portal</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-19 11:24:33</sys_created_on>
+        <sys_id>65e3d63647d1311074aead8b136d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Issues Portal</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sys_ux_page_registry_65e3d63647d1311074aead8b136d4382</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-19 11:24:33</sys_updated_on>
+        <title>Safety Issues Portal</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">57c5cbe447d9311074aead8b136d4333</application>
+        <file_path/>
+        <instance_id>35266ebbdbb1215891232f17d49619b5</instance_id>
+        <instance_name>dev170016</instance_name>
+        <name>sys_ux_page_registry_65e3d63647d1311074aead8b136d4382</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>69e3d63647d1311074aead8b136d4382</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app/><path>safety-issues-portal</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-09-19 11:24:33</sys_created_on><sys_id>65e3d63647d1311074aead8b136d4382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Safety Issues Portal</sys_name><sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package><sys_policy/><sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope><sys_update_name>sys_ux_page_registry_65e3d63647d1311074aead8b136d4382</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-19 11:24:33</sys_updated_on><title>Safety Issues Portal</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-876423106</payload_hash>
+        <record_name>Safety Issues Portal</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 12:00:16</sys_created_on>
+        <sys_id>b51c1abe47d1311074aead8b136d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aad5001720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 12:00:16</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>751c1abe88d13110c65108a82d5e8ccd</update_guid>
+        <update_guid_history>751c1abe88d13110c65108a82d5e8ccd:-876423106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 12:00:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>1111111dd7a142a59cb44ec7c1955c31</sys_id>
+        <sys_metadata>65e3d63647d1311074aead8b136d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Issues Portal</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_scope_delete display_value="">2fc33b39334844c4a7ba35cd820cef90</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_65e3d63647d1311074aead8b136d4382</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_65e3d63647d1311074aead8b136d4382">b51c1abe47d1311074aead8b136d43cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 12:00:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

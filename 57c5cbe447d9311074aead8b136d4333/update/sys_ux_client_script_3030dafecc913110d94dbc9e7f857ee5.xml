@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Article page">7430dafeed91311068c1fc9716d091ef</macroponent>
+        <name>Toggle Comment Reaction</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, imports }) {
+  var likeCommentPayload = {
+    operation: {
+      dataElementId: "like_knowledge_comment",
+      operationName: "EXECUTE"
+    },
+    operationPayload: {
+      commentId: event.payload.commentId,
+      articleId: api.context.props.sysId
+    }
+  }
+
+  var unlikeCommentPayload = {
+    operation: {
+      dataElementId: "unlike_knowledge_comment",
+      operationName: "EXECUTE"
+    },
+    operationPayload: {
+      commentId: event.payload.commentId,
+      articleId: api.context.props.sysId
+    }
+  }
+
+  if (event.payload.reaction) {
+    api.emit("UXF_DB_OP_TRIGGER_REQUESTED", likeCommentPayload);
+  } else {
+    api.emit("UXF_DB_OP_TRIGGER_REQUESTED", unlikeCommentPayload);
+  }
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-19 11:08:21</sys_created_on>
+        <sys_id>3030dafecc913110d94dbc9e7f857ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle Comment Reaction</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sys_ux_client_script_3030dafecc913110d94dbc9e7f857ee5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-19 11:08:21</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

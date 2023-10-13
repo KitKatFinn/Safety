@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_menu_actions</name>
+        <page display_value="">a430dafe4791311074aead8b136d437b</page>
+        <required_translations>[{"message":"Report issue","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-19 11:08:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>3030dafe5d9131106f867ce120d33bd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_update_name>sys_ux_page_property_3030dafe5d9131106f867ce120d33bd3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-19 11:08:23</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1071908_safety.a430dafe4791311074aead8b136d437b.root.chrome_menu_actions</unique_name>
+        <value>{&#13;
+    "label": {"translatable":true, "message":"Report issue"},&#13;
+    "value": {&#13;
+  		"route":"catalog",&#13;
+        "reload":true,&#13;
+       	"fields":{&#13;
+                   "sysId": "3f1dd0320a0a0b99000a53f7604a2ef9"&#13;
+		}&#13;
+	}&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">57c5cbe447d9311074aead8b136d4333</application>
+        <file_path/>
+        <instance_id>35266ebbdbb1215891232f17d49619b5</instance_id>
+        <instance_name>dev170016</instance_name>
+        <name>sys_ux_page_property_3030dafe5d9131106f867ce120d33bd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_menu_actions</name><page display_value="">a430dafe4791311074aead8b136d437b</page><required_translations>[{"message":"Report issue","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-09-19 11:08:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>3030dafe5d9131106f867ce120d33bd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_menu_actions</sys_name><sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package><sys_policy/><sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope><sys_update_name>sys_ux_page_property_3030dafe5d9131106f867ce120d33bd3</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-19 11:08:23</sys_updated_on><type>json</type><unique_name>x_1071908_safety.a430dafe4791311074aead8b136d437b.root.chrome_menu_actions</unique_name><value>{&#13;
+    "label": {"translatable":true, "message":"Report issue"},&#13;
+    "value": {&#13;
+  		"route":"catalog",&#13;
+        "reload":true,&#13;
+       	"fields":{&#13;
+                   "sysId": "3f1dd0320a0a0b99000a53f7604a2ef9"&#13;
+		}&#13;
+	}&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1153627033</payload_hash>
+        <record_name>chrome_menu_actions</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 11:21:11</sys_created_on>
+        <sys_id>a5235af247d1311074aead8b136d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aad2c3c2f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 11:21:11</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>65235af244d131102f518101a3a32c4c</update_guid>
+        <update_guid_history>65235af244d131102f518101a3a32c4c:-1153627033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 11:21:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>634d33d4911f4764b65a2a96794880c1</sys_id>
+        <sys_metadata>3030dafe5d9131106f867ce120d33bd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions</sys_name>
+        <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
+        <sys_scope_delete display_value="">2fc33b39334844c4a7ba35cd820cef90</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3030dafe5d9131106f867ce120d33bd3</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3030dafe5d9131106f867ce120d33bd3">a5235af247d1311074aead8b136d434c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 11:21:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
-        <checked_out>false</checked_out>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -46,7 +46,7 @@
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="Kat Finn">6816f79cc0a8016401c5a33be04be441</owner>
-        <picture>bbab59754769311074aead8b136d4389</picture>
+        <picture>5bd0067e4751311074aead8b136d438f</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
 * `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
@@ -87,14 +87,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-19 10:00:11</sys_created_on>
         <sys_id>72908a7e4751311074aead8b136d430d</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Report a Safety Issue</sys_name>
         <sys_package display_value="Safety" source="x_1071908_safety">57c5cbe447d9311074aead8b136d4333</sys_package>
         <sys_policy/>
         <sys_scope display_value="Safety">57c5cbe447d9311074aead8b136d4333</sys_scope>
         <sys_update_name>sc_cat_item_producer_72908a7e4751311074aead8b136d430d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 15:24:16</sys_updated_on>
+        <sys_updated_on>2023-10-03 15:24:42</sys_updated_on>
         <table_name>x_1071908_safety_issues</table_name>
         <taxonomy_topic/>
         <template/>
@@ -102,7 +102,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>18</version>
+        <version>19</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
